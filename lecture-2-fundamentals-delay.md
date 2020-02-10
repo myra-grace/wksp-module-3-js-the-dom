@@ -6,6 +6,9 @@
 
 ```js
 // Example
+setTimeout(function() {
+    console.log('HELLO');
+}, 3000);  // counts in miliseconds
 
 ```
 
@@ -15,6 +18,11 @@
 
 ```js
 // Example
+const myTimer = setInterval(function() {
+    console.log('here');
+}, 1000);  //runs automatically right away
+
+clearInterval(myTimer);  //stops the interval
 
 ```
 
